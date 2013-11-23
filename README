@@ -1,0 +1,69 @@
+INTRODUCTION
+   Lissajous curve plotter in Ada
+
+HISTORY
+   Written on 1995-09-17 based on a version in BASIC page 88 of More
+   BASIC Computer Games.  Author of original BASIC version is listed
+   as Larry Ruane.
+
+BUILD
+   Assumes that you have suitable Ada compiler installed, only tested
+   with GNAT.
+
+      $ make
+
+RUN
+      $ ./lissajous_cl
+      ./lissajous_cl: relative_X_fequency  relative_Y_frequency  Y_phase
+
+  For example :-
+
+      $ ./lissajous_cl 5 4 1
+            *          *                * *                *          *              
+           *   * *            *  *               *  *            * *   *             
+           *   * *           *   *               *   *           * *   *             
+           *  *    *       *        *         *        *       *    *  *             
+           * *       *   *            *     *            *   *       * *             
+            *         **                * *                **         *              
+            *         * *              *   *              * *         *              
+           * *      *    *           *       *           *    *      * *             
+           *  *    *       *        *         *        *       *    *  *             
+           *   *  *         *     *             *     *         *  *   *             
+           *   * *            *  *               *  *            * *   *             
+           *    *              *                   *              *    *             
+           *    **            * *                 * *            **    *             
+           *   *  *          *    *             *    *          *  *   *             
+           *  *    *       *       *           *       *       *    *  *             
+           * *      *     *         *         *         *     *      * *             
+           * *       *   *            *     *            *   *       * *             
+            *         * *              *   *              * *         *              
+            *          *                  *                *          *              
+            *         * *              *   *              * *         *              
+           * *       *   *            *     *            *   *       * *             
+           * *      *     *         *         *         *     *      * *             
+           *  *    *       *       *           *       *       *    *  *             
+           *   *  *          *    *             *    *          *  *   *             
+           *    **            * *                 * *            **    *             
+           *    *              *                   *              *    *             
+           *   * *            *  *               *  *            * *   *             
+           *   *  *         *     *             *     *         *  *   *             
+           *  *    *       *        *         *        *       *    *  *             
+           * *      *    *           *       *           *    *      * *             
+            *         * *              *   *              * *         *              
+            *         **                * *                **         *              
+           * *       *   *            *     *            *   *       * *             
+           *  *    *       *        *         *        *       *    *  *             
+           *   * *           *   *               *   *           * *   *             
+           *   * *            *  *               *  *            * *   *             
+            *          *                * *                *          *              
+      $ 
+
+BIBLIOGRAPHY
+   More BASIC Computer Games
+   David H. Ahl
+   Creative Computing Press 1979
+
+AUTHOR
+   Ninetes Retro <nineties-retro@mail.com>
+
+   5d1f796f8b37807c663338d0daa6c4f9792fde3186392b4479ae8c323bd58159
